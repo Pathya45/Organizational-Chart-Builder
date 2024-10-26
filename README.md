@@ -62,8 +62,12 @@ To start the development server, run:
 	│   └── App.js        # Main app component
 	└── README.md
 	 ```
-   
-   
 
+## Open the Project in Your Browser
 
-   
+By default, React apps run on http://localhost:3000. Open this address in your browser to view the app.
+
+## Additional Tips
+
+If you encounter permission issues with npm or Node modules, you may need to run with sudo (for Mac/Linux).
+If the project uses environment variables (such as in a .env file), make sure to add them before starting.
