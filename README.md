@@ -1,32 +1,69 @@
 # Organizational-Chart-Builder
 
-To run your project locally after downloading it from GitHub, follow these steps:
 
-1. Clone the Project from GitHub
-Open your terminal and navigate to the directory where you want to clone the project. Use the following command:
-git clone <repository-url>
-Replace <repository-url> with the actual URL of your GitHub repository.
+This is a React application for building and managing an organization chart. Users can add, edit, and delete positions in the chart and define parent-child relationships between positions.
 
-2. Navigate to the Project Directory
-After cloning, move into the project folder:
-**cd <project-folder-name>**
-Replace <project-folder-name> with the folder name created by Git.
+## Features
 
-3. Install Dependencies
+- Add, edit, and delete positions
+- Define parent-child relationships for an organization chart structure
+- User-friendly interface with CSS styling
 
-Assuming your project uses Node.js and npm, install all the dependencies:
-**npm install**
+## Getting Started
 
-4. Start the Development Server
-Once the dependencies are installed, start the React development server:
-**npm start**
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing.
 
-5. Open the Project in Your Browser
-By default, React apps run on http://localhost:3000. Open this address in your browser to view the app.
+### Prerequisites
 
-6. Make Changes as Needed
-Once running, any changes saved to the files should automatically reflect in the browser.
+Make sure you have the following software installed:
 
-Additional Tips
-If you encounter permission issues with npm or Node modules, you may need to run with sudo (for Mac/Linux).
-If the project uses environment variables (such as in a .env file), make sure to add them before starting.
+- [Node.js](https://nodejs.org/) (version 14.x or later recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+
+2. Install dependencies:
+
+   Using npm:
+   ```
+   npm install
+   ```
+   Or, using yarn:
+   ```
+   yarn install
+   ```
+
+3. Running the Project
+To start the development server, run:
+
+   Using npm:
+   ```
+   npm start
+   ```
+   Or, using yarn:
+   ```
+   yarn start
+   ```
+
+4. Folder Structure
+
+	```
+		.
+	├── public/           # Public assets
+	├── src/              # Source code
+	│   ├── components/   # React components
+	│   ├── services/     # API services
+	│   └── App.js        # Main app component
+	└── README.md
+	 ```
+   
+   
+
+
+   
