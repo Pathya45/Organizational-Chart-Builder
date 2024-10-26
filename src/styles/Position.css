@@ -1,0 +1,53 @@
+.position {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-left: 2px solid #ccc;
+    padding-left: 20px;
+}
+
+.position-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.position-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.action-btn {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+     transition: background-color 1s;
+}
+
+.action-btn:hover {
+    background-color: grey;
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+.delete-btn:hover {
+    background-color: grey;
+}
+
+.toggle-btn {
+    margin-top: 10px;
+    padding: 3px 10px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.children {
+    margin-top: 10px;
+}
