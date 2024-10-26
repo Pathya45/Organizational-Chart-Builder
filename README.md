@@ -54,14 +54,40 @@ To start the development server, run:
 4. Folder Structure
 
 	```
-		.
-	├── public/           # Public assets
-	├── src/              # Source code
-	│   ├── components/   # React components
-	│   ├── services/     # API services
-	│   └── App.js        # Main app component
-	└── README.md
+	project-root
+	│
+	├── public
+	│
+	└── src
+	    ├── components
+	    │   ├── Chart.jsx
+	    │   └── Position.jsx
+	    │
+	    ├── context
+	    │   └── ChartContext.jsx
+	    │
+	    ├── styles
+	    │   ├── App.css
+	    │   └── Position.css
+	    │
+	    ├── App.css
+	    ├── App.js
+	    ├── App.test.js
+	    ├── index.css
+	    ├── index.js
+	    ├── logo.svg
+	    ├── reportWebVitals.js
+	    └── setupTests.js
 	 ```
+
+ ### Explanation of Folders and Files
+
+- components/: Contains the React components like Chart.jsx and Position.jsx for your organizational chart.
+- context/: Holds the context file (ChartContext.jsx) for managing state across the application.
+- styles/: CSS files specific to the components, such as App.css and Position.css.
+- App.js: Main app component.
+- index.js: Entry point of the React app.
+- public/: Holds static assets and the main index.html.
 
 ## Open the Project in Your Browser
 
